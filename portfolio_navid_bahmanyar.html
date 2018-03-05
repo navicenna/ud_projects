@@ -10,35 +10,50 @@
     
     <style>
         body {
-            /* box-sizing: contentrightbox; */
+            box-sizing: content-box;
             /* margin: 10px; */
-            padding-left: 340px;
-            padding-right: 340px;
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+        @media (max-width: 1300px) {
+            body {
+                margin-left: 340px;
+                margin-right: 340px;
+            }
         }
         @media (max-width: 980px) {
             body {
-                padding-left: 10;
-                padding-right: 10;
+                margin-left: 10;
+                margin-right: 10;
             }
         }
         .work-item {
             width: 33%;
         }
         .container {
+            width: 100%;
             padding: 0px;
+            margin: 0px;
+        }
+        .container-fluid {
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
         }
         .logo {
-            width: 19%;
-            vertical-align: text-top;
+            width: 8%;
+            vertical-align: middle;
         }
         .main-image {
-            /* max-width: 100%; */
-            width: 100%;
+            max-width: 100%;
+            /* width: 100%; */
         }
         header {
             text-align: right;
-            /* vertical-align: text-top; */
+            vertical-align: top;
             /* display: inline-block; */
+            width: 100%;
+            margin-top: 0;
         }        
 
     </style>
@@ -46,32 +61,43 @@
 </head>
 <body>
     
-<!-- <div class="clearfix">
-    <img src="..." alt="..." class="pull-left">
-    <p>This text appears next to the image.</p>
+<!-- <div class="container-fluid"> -->
+<div class="container">
+    <div class="row">
+        <!-- <div class="col"> -->
+            <header class="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/DSHwiki.jpg/400px-DSHwiki.jpg" alt="cute dog" class="pull-left img-fluid logo">
+                <h1>Navid Bahmanyar</h1>
+                <h4>Full-Stack Web Developer</h4>
+            </header>
+            <hr>
+        <!-- </div> -->
+    </div>
+    
+    <div class="row">
+        <!-- <div class="col"> -->
+            <img src="http://www.visitvictoria.com/-/media/atdw/great-ocean-road/things-to-do/nature-and-wildlife/national-parks-and-reserves/d069d420c7dab28f6172d4570caa5015_1600x900.jpeg?ts=20170621380956&amp;cp=95&w=1200"
+            alt="Port Campbell Nat'l Park" class="img-fluid main-image">
+            a a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd
+        <!-- </div> -->
+    </div>
 </div>
-<p>This text appears below the image.</p> -->
-
-
-<!-- <header class="clearfix"> -->
-<header class="">
-<img src="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" alt="cute dog" class="rounded pull-left img-fluid logo">
-<h1>Navid Bahmanyar</h1>
-<h4>Full-Stack Web Developer</h4>
+    
 
 <div class="container">
-    
-    </header>
-    <hr>
-    <!-- <img src="https://wallpaperbrowse.com/media/images/3848765-wallpaper-images-download.jpg" alt="cute dog" class="img-fluid work-item"> -->
+    <div class="row">
+        <div class="col">
+            ONE
+        </div>
+        <div class="col">
+            TWO
+        </div>
+        <div class="col">
+            THREE
+        </div>
+    </div>
 </div>
 
 
-<div class="container main-image">
-<img src="http://www.wallpapers13.com/wp-content/uploads/2016/01/Port-Campbell-National-Park-Victoria-Australia-Wallpaper-coastal-hd-915x515.jpg" alt="Port Campbell Nat'l Park" class="img-fluid main-image">
-text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt text tesxt
-</div>
-
-    
 </body>
 </html>
