@@ -12,12 +12,13 @@
         body {
             box-sizing: content-box;
             /* margin: 10px; */
-            margin-left: 400px;
-            margin-right: 400px;
+            margin: 0 auto;
+            /* margin-right: 400px; */
+            max-width: 860px;
         }
         @media (max-width: 1300px) {
             body {
-                margin-left: 340px;
+                margin: 340px;
                 margin-right: 340px;
             }
         }
@@ -56,11 +57,14 @@
             margin-top: 0;
         }
         .col {
-            width: 30%;
-            border-style: solid;
-            border-width: 2px;
+            width: 32%; 
+            /* border-style: solid;
+            border-width: 2px; */
             display: inline-block;
-        }        
+        }
+        .section-img {
+            max-width: 100%;
+        }
 
     </style>
 
@@ -84,7 +88,8 @@
         <!-- <div class="col"> -->
             <img src="http://www.visitvictoria.com/-/media/atdw/great-ocean-road/things-to-do/nature-and-wildlife/national-parks-and-reserves/d069d420c7dab28f6172d4570caa5015_1600x900.jpeg?ts=20170621380956&amp;cp=95&w=1200"
             alt="Port Campbell Nat'l Park" class="img-fluid main-image">
-            a a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd
+            a a b c dd a b c dd a b c dd a b c dd a 
+            <!-- b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd -->
         <!-- </div> -->
     </div>
 </div>
@@ -92,14 +97,24 @@
 
 <div class="container">
     <div class="row">
+        <h2>Featured Work</h2>
         <div class="col">
-            ONE
+            <section>
+                <img src="https://store.multidots.com/wp-content/uploads/2017/07/03_appify_html_heading.png" alt="appify img" class="img-fluid section-img">
+                ONE
+            </section>
         </div>
         <div class="col">
-            TWO
+            <section>
+                <img src="https://store.multidots.com/wp-content/uploads/2017/07/03_appify_html_heading.png" alt="appify img" class="img-fluid section-img">
+                TWO
+            </section>
         </div>
         <div class="col">
-            THREE
+            <section>
+                <img src="https://store.multidots.com/wp-content/uploads/2017/07/03_appify_html_heading.png" alt="appify img" class="img-fluid section-img">
+                THREE
+            </section>
         </div>
     </div>
 </div>
