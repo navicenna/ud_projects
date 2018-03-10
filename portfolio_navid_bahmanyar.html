@@ -11,19 +11,16 @@
     
     <style>
         body {
-            /* box-sizing: content-box; */
-            /* margin: 10px; */
             margin: 0 auto;
-            /* margin-right: 400px; */
             max-width: 920px;
         }
-        /* @media (max-width: 1300px) {
+        @media (max-width: 960px) {
             body {
-                margin: 340px;
-                margin-right: 340px;
+                margin: 0 auto;
+                max-width: 860px;
             }
         }
-        @media (max-width: 980px) {
+        /* @media (max-width: 980px) {
             body {
                 margin-left: 10;
                 margin-right: 10;
@@ -48,7 +45,7 @@
         }
         .main-image {
             max-width: 100%;
-            height: 100px;
+            /* height: 100px; */
             /* width: 100%; */
         }
         header {
@@ -80,102 +77,61 @@
             width: 300px;
             height: 160px;
         }
+        .section-header {
+            text-transform: uppercase;
+            color:brown;
+            text-align: center;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+        }
 
     </style>
 
 </head>
 <body>
     
-<!-- <div class="container-fluid"> -->
 <div class="container-fluid">
-    <!-- <div class="row"> -->
-        <!-- <div class="col"> -->
-            <header class="">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/DSHwiki.jpg/400px-DSHwiki.jpg" alt="cute dog" class="pull-left img-fluid logo">
-                <h1>Navid Bahmanyar</h1>
-                <h4>Full-Stack Web Developer</h4>
-            </header>
-            <hr>
-        <!-- </div> -->
-    <!-- </div> -->
-    
-    <!-- <div class="row"> -->
-        <!-- <div class="col"> -->
-            <img src="http://www.visitvictoria.com/-/media/atdw/great-ocean-road/things-to-do/nature-and-wildlife/national-parks-and-reserves/d069d420c7dab28f6172d4570caa5015_1600x900.jpeg?ts=20170621380956&amp;cp=95&w=1200"
-            alt="Port Campbell Nat'l Park" class="img-fluid main-image">
-            a a b c dd a b c dd a b c dd a b c dd a 
-            <!-- b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd a b c dd -->
-        <!-- </div> -->
-    <!-- </div> -->
-    
+    <header class="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/DSHwiki.jpg/400px-DSHwiki.jpg" alt="cute dog" class="pull-left img-fluid logo">
+        <h1>Navid Bahmanyar</h1>
+        <h4>Full-Stack Web Developer</h4>
+    </header>
+    <hr>
 
+    <img src="http://www.visitvictoria.com/-/media/atdw/great-ocean-road/things-to-do/nature-and-wildlife/national-parks-and-reserves/d069d420c7dab28f6172d4570caa5015_1600x900.jpeg?ts=20170621380956&amp;cp=95&w=1200"
+    alt="Port Campbell Nat'l Park" class="img-fluid main-image">
+
+    <br><br>
     <h2>Featured Work</h2>
     <div class="row">
         <div class="col-sm-4">
-            <!-- <section> -->
+            <section>
                 <img src="https://store.multidots.com/wp-content/uploads/2017/07/03_appify_html_heading.png" alt="appify img" class="img-fluid section-img">
-                ONE
-            <!-- </section> -->
+                <h3 class="section-header">appify</h3>
+                <footer>https://www.github.com/appify</footer>
+            </section>
         </div>
         <div class="col-sm-4">
             <section>
                 <img src="https://cdn-images-1.medium.com/max/1600/1*93CVLqnQESmvfOhzvYUgQw.png" alt="pandas img" class="img-fluid section-img">
-                TWO
+                <h3 class="section-header">pandas</h3>
+                <footer>https://www.github.com/pandas</footer>
             </section>
         </div>
         <div class="col-sm-4">
             <section>
                 <img src="https://i.stack.imgur.com/pDYIh.png" alt="seaborn img" class="img-fluid section-img">
-                THREE
+                <h3 class="section-header">seaborn</h3>
+                <footer>https://www.github.com/seaborn</footer>
             </section>
         </div>
     </div>
 </div>
 
 
-
-<div class="container">
-    <!-- <div class="row">
-        <h2>Featured Work</h2>
-        <div class="col">
-            <section>
-                <img src="https://store.multidots.com/wp-content/uploads/2017/07/03_appify_html_heading.png" alt="appify img" class="img-fluid section-img">
-                ONE
-            </section>
-        </div>
-        <div class="col">
-            <section>
-                <img src="https://cdn-images-1.medium.com/max/1600/1*93CVLqnQESmvfOhzvYUgQw.png" alt="pandas img" class="img-fluid section-img">
-                TWO
-            </section>
-        </div>
-        <div class="col">
-            <section>
-                <img src="https://i.stack.imgur.com/pDYIh.png" alt="seaborn img" class="img-fluid section-img">
-                THREE
-            </section>
-        </div>
-    </div> -->
-
     
-
-
-    <!-- <div class="container-fluid"> -->
-        <!-- <h1>Hello World!</h1>
-        <p>Resize the browser window to see the effect.</p>
-        <p>The columns will automatically stack on top of each other when the screen is less than 768px wide.</p>
-        <div class="row">
-            <div class="col-xs-6 col-md-4" style="background-color:lavender;">.ol-xs-6 col-md-4</div>
-            <div class="col-xs-6 col-md-4" style="background-color:lavenderblush;">.ol-xs-6 col-md-4</div>
-            <div class="col-xs-6 col-md-4" style="background-color:lavender;">.ol-xs-6 col-md-4</div>
-        </div> -->
-    <!-- </div> -->
-
-    
-    
-    
-</div>
-
 
 </body>
 </html>
