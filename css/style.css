@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    max-width: 920px;
+}
+@media (max-width: 960px) {
+    body {
+        margin: 0 auto; 
+        max-width: 860px;
+    }
+}
+.work-item {
+    width: 33%;
+}
+.container {
+    width: 100%;
+}
+.container-fluid {
+    width: 100%;
+}
+.logo {
+    width: 11%;
+    vertical-align: middle;
+}
+.main-image {
+    max-width: 100%;
+}
+header {
+    text-align: right;
+    vertical-align: top;
+    width: 100%;
+    margin-top: 0;
+}
+.section-img {
+    max-width: 100%;
+    object-fit: scale-down; /* Do not scale the image */ 
+    object-position: center; /*Center the image within the element  */
+    width: 300px;
+    height: 160px;
+}
+.section-header {
+    text-transform: uppercase;
+    color:brown;
+    text-align: center;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+}
