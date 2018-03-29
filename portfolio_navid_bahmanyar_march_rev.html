@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" >
+    
+    <title>Navid Bahmanyar's Portfolio</title>
+
+    <style>
+    
+            body {
+            margin: 0 auto;
+            max-width: 920px;
+        }
+        @media (max-width: 960px) {
+            body {
+                margin: 0 auto; 
+                max-width: 860px;
+            }
+        }
+        .work-item {
+            width: 33%;
+        }
+        .container {
+            width: 100%;
+        }
+        .container-fluid {
+            width: 100%;
+        }
+        .logo {
+            width: 11%;
+            vertical-align: middle;
+        }
+        .main-image {
+            max-width: 100%;
+        }
+        header {
+            text-align: right;
+            vertical-align: top;
+            width: 100%;
+            margin-top: 0;
+        }
+        .section-img {
+            max-width: 100%;
+            object-fit: scale-down; /* Do not scale the image */ 
+            object-position: center; /*Center the image within the element  */
+            width: 300px;
+            height: 160px;
+        }
+        .section-header {
+            text-transform: uppercase;
+            color:brown;
+            text-align: center;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+        }
+
+    </style>
+</head>
+    
+    
+<body>
+    
+<div class="container-fluid">
+    <header class="">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/DSHwiki.jpg/400px-DSHwiki.jpg" alt="cute dog" class="pull-left img-fluid logo">
+        <h1>Navid Bahmanyar</h1>
+        <h4>Full-Stack Web Developer</h4>
+    </header>
+    <hr>
+
+    <img src="http://www.visitvictoria.com/-/media/atdw/great-ocean-road/things-to-do/nature-and-wildlife/national-parks-and-reserves/d069d420c7dab28f6172d4570caa5015_1600x900.jpeg?ts=20170621380956&amp;cp=95&w=1200"
+    alt="Port Campbell Nat'l Park" class="img-fluid main-image">
+
+    <br><br>
+    <h2>Featured Work</h2>
+    <div class="row">
+        <div class="col-sm-4">
+            <section>
+                <img src="https://store.multidots.com/wp-content/uploads/2017/07/03_appify_html_heading.png" alt="appify img" class="img-fluid section-img">
+                <h3 class="section-header">appify</h3>
+                <footer>https://www.github.com/appify</footer>
+            </section>
+        </div>
+        <div class="col-sm-4">
+            <section>
+                <img src="https://cdn-images-1.medium.com/max/1600/1*93CVLqnQESmvfOhzvYUgQw.png" alt="pandas img" class="img-fluid section-img">
+                <h3 class="section-header">pandas</h3>
+                <footer>https://www.github.com/pandas</footer>
+            </section>
+        </div>
+        <div class="col-sm-4">
+            <section>
+                <img src="https://i.stack.imgur.com/pDYIh.png" alt="seaborn img" class="img-fluid section-img">
+                <h3 class="section-header">seaborn</h3>
+                <footer>https://www.github.com/seaborn</footer>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+    
+
+</body>
+</html>
